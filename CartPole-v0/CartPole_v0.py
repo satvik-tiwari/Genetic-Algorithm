@@ -195,9 +195,7 @@ for each_game in range(10):
 print('Required Score:',str(score_requirement))    
 print('Average Score Achieved:',sum(scores)/len(scores))env.close()
 
-<video src="cartpole_v0.mp4" width="320" height="200" controls preload>
-    <source src="video.mp4"></source> 
-</video>
+<video src="cartpole_v0.mp4" width="320" height="200" controls preload></video>
 
 Required Score: 50
 Average Score Achieved: 140.2

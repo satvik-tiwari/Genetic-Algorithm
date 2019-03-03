@@ -195,9 +195,8 @@ for each_game in range(10):
 print('Required Score:',str(score_requirement))    
 print('Average Score Achieved:',sum(scores)/len(scores))env.close()
 
-<video controls>
-  <source src="/uploads/cartpole_v0_output.mp4" type="video/mp4">
-Your browser does not support the video tag.
+<video src="cartpole_v0.mp4" width="320" height="200" controls preload>
+    <source src="video.mp4"></source> 
 </video>
 
 Required Score: 50

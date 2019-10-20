@@ -10,7 +10,7 @@ distances.shape
 data.head()
 print(distances)
 
-#Creating initial Population
+#Creating Initial Population
 num_generations = 500
 solutions_per_pop = 8
 pop_size = (solutions_per_pop, distances.shape[1])
